@@ -13,7 +13,7 @@ def dfs(v,d,stack):
         for j in x :
             #checking every adjacency list item is visited or not it not visited (False).
             if(v[j]==False):
-                # if not visited it will added or append to the stack
+                # if not visited it will append to the stack
                 stack.append(j)
 #list of vertices
 l=['full','front','back','html','css','js','c','java','python']
